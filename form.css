@@ -1,0 +1,80 @@
+body {
+	background-color: #eeeeeee;
+	background-image: url("geo.jpg");
+}
+.grid{
+	width: 380px;
+	height: 600px;
+	margin:0 auto;
+	background: rgba(209, 209, 224, 0.65);
+	padding: 10px 50px 50px 50px;
+	border-radius:50px;
+	border: 2px solid #cbcbcb;
+	box-shadow:10px 15px 5px #cbcbcb;	
+}
+
+
+
+.grid  h1{
+	
+	font-family: courier new;
+	background-color: #57636e;
+	font-size: 30px;
+	text-align: center;
+	color: #fff;
+	padding: 2px 0px;
+	border-radius: 50px;
+
+}
+#form{
+	text-align:center;
+}
+
+#buton, #submit{
+	background-color:#57636e;
+	width:250px;
+	font-size:20px;
+	color:#fff;
+	border: 1px solid #1d3c6a;
+	border-radius: 50px;
+	margin: 10px 40px 10px 0px;
+	padding:10px 10px;
+	font-family: courier new;
+	font-weight:bold;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	
+}
+
+#buton:hover, #submit:hover{
+	cursor:pointer;
+	background-color: #57636e;
+}
+
+#buton:focus, #submit:focus{
+	outline:0;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 12px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+	opacity:0.8;
+}
+input[type=checkbox]{
+	size: 12px 12px;
+}
+
+form p{
+	font-family:courier new;
+	font-weight:bold;
+}
+
+
+
+
